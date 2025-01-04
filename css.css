@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+    background-color: #222;
+    
+}
+.main{
+    display :flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:30px;
+}
+button{
+    background-color: white;
+    color:#222;
+    width: 250px;
+    height: 130px;
+    font-size:40px ;
+}
+.again:hover{
+    background-image:linear-gradient(to left, #333 2%, #333 5%, #eee 85%, #eee 6%) ;
+}
+.main h3{
+    color: white ;
+    font-size:40px ;
+    letter-spacing:3px;
+}
+.guess{
+    
+    font-size:39px ;
+    padding:30px;
+    
+}
+.guess .first {
+    color: white ;
+    margin-left:150px;
+    margin-bottom:70px;
+}
+.main2 h1{
+color: #222;
+background-color: white;
+width: 250px;
+height: 130px;
+text-align:center;
+margin-left:320px;
+line-height:120px;
+position: relative;
+
+}
+.main2 h1::before {
+    content :'';
+    position : absolute ;
+    width: 1040px;
+    height: 10px;
+    background-color: white ;
+    left:-350px;
+    top: 60px;
+    z-index:-1;
+}
+
+.one{
+    display :grid;
+    padding:30px;
+    
+}
+.list{
+   width: 300px;
+    height: 300px;
+    background-color:#222 ;
+    border:2px solid white;
+    font-size: 100px;
+    color:white;
+    padding:50px;
+    right:10px;
+    position : absolute ;
+    top:730px;
+}
+.one .check{
+    margin-left:40px;
+    margin-top:240px;
+}
+.check:hover{
+    background-image:linear-gradient(to left, #333 2%, #333 5%, #eee 85%, #eee 6%) ;
+}
+.two{
+    display :grid;
+    justify-content:center;
+    width: 100%;
+    position: absolute;
+    padding:30px;
+    color: white ;
+    top:960px;
+    left:60px;
+    
+}
+.two p {
+    margin-bottom:23px;
+    margin-top:100px;
+    width: 340px;
+   height: 100px;
+   font-size:35px;
+}
+
+
+
+
+
+
+
+
+
+
+
